@@ -12,5 +12,4 @@ while :; do
 done
 
 cd /www/wwwroot/AI-Landing-Page-Generator
-pnpm build
-nohup pnpm start --port=4000 >> ailandingpage.log 2>&1 &
+nohup pnpm dev --port=4000 >> ailandingpage.log 2>&1 &
