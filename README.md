@@ -8,6 +8,10 @@ clone of [aipage.dev](https://github.com/zinedkaloc/aipage.dev)
 
 ![A landing page generator](/public/logo.png)
 
+![1](README_files/1.jpg)
+
+![2](README_files/2.jpg)
+
 The AI Landing Page Generator is a powerful tool that allows you to quickly create stunning landing pages using artificial intelligence. With this generator, you can save time and effort by automating the process of designing and coding landing pages. It is now experimental and only supports the creation of landing pages with HTML and Tailwind CSS.
 
 ## Installation
