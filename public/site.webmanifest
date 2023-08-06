@@ -1,0 +1,9 @@
+{
+  "name": "AI Landing Page Generator",
+  "short_name": "AI Landing Page Generator",
+  "icons": [
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
