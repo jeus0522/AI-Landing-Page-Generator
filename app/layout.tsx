@@ -24,11 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
 	  <head>
-		 <title>AI Landing Page Generator - Free Landing Page Generator</title>
-		 <meta name="description" content="Free AI Powered Landing Page Generator. Create landing page easily with AI."/>
+		 <title>AI Landing Page Generator - Free</title>
+		 <meta name="description" content="Free AI Landing Page Generator. Create landing page easily with AI."/>
 		 <meta name="viewport" content="width=device-width, initial-scale=1" />
 		 <meta name="keywords" content="AI Landing Page Generator,Free,OnLine" />
-		 <link rel="canonical" href="https://ailandingpagegenerator.com" />
+		 <link rel="canonical" href="https://www.ailandingpagegenerator.com" />
 		 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 		 {/* Google Analytics Script */}
 		 <script

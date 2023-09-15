@@ -373,6 +373,12 @@ export default function Chat() {
 	  		<div id="friendlyLink" className="mt-4">
 	  			<div className="text-2xl">Friendly Link</div>
 	  			<div className="flex justify-start items-center mb-2 space-y-2 mt-2 flex-wrap">
+					<a href="https://aicomicfactory.com/" className="text-black cursor-pointer rounded-full mr-4">
+						<div 
+							className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
+							<p className="">AI Comic Factory</p>
+						</div>
+					</a>
 					<a href="https://www.aipage.dev" className="text-black cursor-pointer rounded-full mr-4">
 						<div 
 							className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
@@ -403,6 +409,12 @@ export default function Chat() {
 	  						<p className="">Crontab Online Generator</p>
 	  					</div>
 	  				</a>
+					<a href="https://www.disneyaiposter.com" className="text-black cursor-pointer rounded-full mr-4">
+						<div
+							className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
+							<p className="">Disney AI Poster</p>
+						</div>
+					</a>
 	  			</div>
 	  		</div>
 	  </div>
