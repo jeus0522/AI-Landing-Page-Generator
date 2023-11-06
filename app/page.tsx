@@ -429,6 +429,12 @@ export default function Chat() {
 							<p className="">Disney AI Poster</p>
 						</div>
 					</a>
+					<a href="https://www.disneypixarai.com" className="text-black cursor-pointer rounded-full mr-4">
+						<div
+							className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
+							<p className="">Disney Pixar AI Poster Generator</p>
+						</div>
+					</a>
 	  			</div>
 	  		</div>
 	  </div>
