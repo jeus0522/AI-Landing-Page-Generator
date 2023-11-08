@@ -38,6 +38,8 @@ export default function RootLayout({
 		 <script dangerouslySetInnerHTML={{ __html: googleAnalyticsScript }} />
 		 {/* Baidu Analytics Script */}
 		 <script dangerouslySetInnerHTML={{ __html: baiduAnalyticsScript }} />
+		  {/* Plausible Analytics Script */}
+		  <script defer data-domain="ailandingpagegenerator.com" src="https://stat.re/js/script.js"></script>
 	  </head>
       <body>{children}</body>
     </html>
