@@ -74,7 +74,7 @@ export default function Chat() {
 		disableEditMode();
 	}
   }, [editingMode]);
-	
+
   const handleSave = () => {
     const element = document.createElement("a");
     const file = new Blob([iframeContent], { type: "text/html" });
@@ -92,7 +92,7 @@ export default function Chat() {
   >(new Map());
 
   const disableEditMode = () => {
-	  
+
 	  if (iframeRef.current) {
 	    const iframeDocument = (iframeRef.current as HTMLIFrameElement)
 	      .contentDocument;
@@ -101,7 +101,7 @@ export default function Chat() {
 	        .querySelectorAll<HTMLElement>("*")
 	        .forEach((element) => {
 	          element.contentEditable = "false";
-	  
+
 	          // Get the listeners for the element from the map
 	          const listeners = listenersMap.current.get(element);
 	          if (listeners) {
@@ -115,7 +115,7 @@ export default function Chat() {
 	    }
 	  }
   };
- 
+
   const enableEditMode = () => {
 	  if (iframeRef.current) {
 	    const iframeDocument = (iframeRef.current as HTMLIFrameElement)
@@ -125,7 +125,7 @@ export default function Chat() {
 	        .querySelectorAll<HTMLElement>("*")
 	        .forEach((element) => {
 	          element.contentEditable = "true";
-	  
+
 	          // Create the event listeners
 	          const mouseoverListener = () => {
 	            element.classList.add("outline-blue");
@@ -135,11 +135,11 @@ export default function Chat() {
 	            console.log("Mouseout event fired");
 	            element.classList.remove("outline-blue");
 	          };
-	  
+
 	          // Add the listeners to the element
 	          element.addEventListener("mouseover", mouseoverListener);
 	          element.addEventListener("mouseout", mouseoutListener);
-	  
+
 	          // Store the listeners in the map
 	          listenersMap.current.set(element, {
 	            mouseover: mouseoverListener,
@@ -149,7 +149,7 @@ export default function Chat() {
 	    }
 	  }
   }
- 
+
   const handleEdit = () => {
     if (editingMode) {
       // Save the updated iframe content
@@ -183,7 +183,7 @@ export default function Chat() {
       }
     }
   };
-  
+
   return (
     <div className="flex flex-col w-full min-h-screen mx-auto px-4 md:px-16 lg:px-24 overflow-hidden items-center pt-24 pb-10 md:pt-32">
       <header className="w-full px-6 pt-4 absolute top-0">
@@ -371,7 +371,7 @@ export default function Chat() {
 	  				</svg>
 	  			</a>
 	  			<a href="https://aicodeconvert.com" className="text-black cursor-pointer rounded-full mr-4">
-	  				<div 
+	  				<div
 	  					className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
 	  					<svg width="20" height="20" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
 	  					    <path fill="#3b82f6" d="M516 673c0 4.4 3.4 8 7.5 8h185c4.1 0 7.5-3.6 7.5-8v-48c0-4.4-3.4-8-7.5-8h-185c-4.1 0-7.5 3.6-7.5 8v48zm-194.9 6.1l192-161c3.8-3.2 3.8-9.1 0-12.3l-192-160.9A7.95 7.95 0 0 0 308 351v62.7c0 2.4 1 4.6 2.9 6.1L420.7 512l-109.8 92.2a8.1 8.1 0 0 0-2.9 6.1V673c0 6.8 7.9 10.5 13.1 6.1zM880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z"/>
@@ -393,32 +393,32 @@ export default function Chat() {
 							<p className="">Gemini Pro Chat</p>
 						</div>
 					</a>
-					<a href="https://www.aipage.dev" className="text-black cursor-pointer rounded-full mr-4">
-						<div 
+					<a href="https://chatgptgratuito.net" className="text-black cursor-pointer rounded-full mr-4">
+						<div
 							className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
-							<p className="">AIPage.dev </p>
+							<p className="">ChatGpt Português</p>
 						</div>
 					</a>
 					<a href="http://www.cutout.pro/" className="text-black cursor-pointer rounded-full mr-4">
-						<div 
+						<div
 							className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
 							<p className="">AI Photo Editor</p>
 						</div>
 					</a>
 	  				<a href="https://twidropper.com" className="text-black cursor-pointer rounded-full mr-4">
-	  					<div 
+	  					<div
 	  						className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
 	  						<p className="">Twitter動画保存</p>
 	  					</div>
 	  				</a>
 	  				<a href="https://randomlettergenerator.org" className="text-black cursor-pointer rounded-full mr-4">
-	  					<div 
+	  					<div
 	  						className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
 	  						<p className="">Random Letter Generator</p>
 	  					</div>
 	  				</a>
 	  				<a href="https://crontab.online" className="text-black cursor-pointer rounded-full mr-4">
-	  					<div 
+	  					<div
 	  						className="items-center flex text-sm font-medium justify-center py-2 px-4 border rounded-full">
 	  						<p className="">Crontab Online Generator</p>
 	  					</div>
