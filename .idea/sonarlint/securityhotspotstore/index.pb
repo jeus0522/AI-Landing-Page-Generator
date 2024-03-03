@@ -5,3 +5,7 @@
 app/page.tsx,6/f/6f76c4f4dad83442e836edc16c9735cb7bb32a73
 >
 app/layout.tsx,e/e/ee80c90a95b380fdaa8bc6ba2190fbb3fdc30bb0
+E
+app/api/chat/route.ts,4/0/40d00c9034f2e96e9f6c89c60ccd15db1c5b2091
+;
+vercel.json,8/3/83188a989cfa5952424962eec8f2d0f97ba87e09
