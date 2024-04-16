@@ -54,7 +54,7 @@ Remember to keep the design minimalistic, intuitive, and visually appealing. You
 
   do {
     response = await openai.createChatCompletion({
-      model: "gpt-3.5-turbo-16k",
+      model: "gpt-3.5-turbo",
       messages: combinedMessages.map((message: any) => ({
         role: message.role,
         content: message.content,

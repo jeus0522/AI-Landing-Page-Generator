@@ -14,3 +14,5 @@ Snode_modules/.pnpm/openai-edge@0.5.1/node_modules/openai-edge/types/types/chat.
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+<
+.env.example,d/4/d4dae00d11854b35292c2b8a30515a9a0aa2d871
