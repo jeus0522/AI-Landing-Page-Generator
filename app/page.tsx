@@ -220,8 +220,10 @@ export default function Chat() {
 					<div
 						className="cursor-pointer mt-2 w-full h-10 rounded-full flex justify-center items-center bg-gradient-to-r from-teal-200 to-yellow-200 via-blue-100 ">
 						✨
-						<a className="ml-2 text-sm text-slate-900" target="_blank"
-						   href="https://www.disneyaiposter.com/apps/ps2-filter">Generate PS2 Filter Photos</a>
+						<a className="ml-2 text-sm text-slate-900 font-semibold" target="_blank"
+						   href="https://llama3.dev">
+							Llama3 AI - Meta AI
+						</a>
 					</div>
 					<div
 						className="cursor-pointer mt-2 w-full h-10 rounded-full flex justify-center items-center bg-gradient-to-r from-yellow-200 via-green-200 to-blue-200">
@@ -255,8 +257,9 @@ export default function Chat() {
 								</g>
 							</g>
 						</svg>
-						<a className="ml-2 text-sm text-slate-900" href="https://sunoaifree.com/apps/list"
-						   target="_blank">Generate Your Own AI Song</a>
+						<a className="ml-2 text-sm text-slate-900 font-semibold" href="https://sunoaifree.com/apps/list"
+						   target="_blank">Generate Your Own AI Song
+						</a>
 					</div>
 				</div>
 			</div>
